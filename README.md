@@ -11,25 +11,17 @@
 </p>
 
 <p align="center">
-  <img alt="banner" src="http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge" />
+  <img alt="banner" src="http://img.shields.io/static/v1?label=STATUS&message=%20FINISHED&color=GREEN&style=for-the-badge" />
 </p>
 
 <h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/727c45d6-fc00-4ef8-896e-a9ab4554dc61" /> Description </h2> 
 <p> An informative website that portrays <a href="https://salvedojuliao.github.io/Mitoafro/"> <b>African Mythology </b> </a> focusing on some main orixás with their respective Yoruba myths, aiming to increase its     visibility without the intention of converting users to the religion. To this end, we provide content that is easy to read and understand, dynamic and very interactive. 
 </p>
    
+![banner_02](https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/4efac140-8f2a-4bae-92f6-d2bee945e505)
 
-
-
-
-<imgs of Orixás>
-
-<h4 align="center"> 
-    :construction:  Project finished  :construction:
-</h4>
-
-# :hammer: Features project
-
+<h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/0dc65363-2400-48a6-ab4a-2d019905ab0e" /> Features </h2> 
+    
 - `Feature 1`: descrição da funcionalidade 1
 - `Feature 2`: descrição da funcionalidade 2
 - `Feature 2`: descrição da funcionalidade 2a relacionada à funcionalidade 2
