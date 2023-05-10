@@ -1,6 +1,8 @@
-<h1 align="center"> ✊🏾 Mitoafro </h1>
-
-![banner](https://github.com/salvedojuliao/Mitoafro/assets/44206400/788e0e5d-d504-49fe-8410-9a625d277d0f)
+<h1 align="center">
+    <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/Mitoafro/assets/44206400/51620f79-39f4-48a0-8daa-8b6999a6eca3" /> MitoAfro </h1> 
+<h1>
+   
+![banner_01](https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/c17b0ff2-0dba-415c-8cbc-fd144881cb44)
 
 <p align="center">
    <img alt="" src="https://img.shields.io/github/repo-size/salvedojuliao/Mitoafro" />
@@ -12,8 +14,13 @@
   <img alt="banner" src="http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge" />
 </p>
 
-# 📌 Project description
-A **informative website** that portrays <a href="https://salvedojuliao.github.io/Mitoafro/"> **African Mythology** </a> focusing on some main orixás with their respective Yoruba myths, aiming to increase its visibility without the intention of converting users to the religion. To this end, we provide content that is easy to read and understand, dynamic and very interactive.
+<h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/727c45d6-fc00-4ef8-896e-a9ab4554dc61" /> Description </h2> 
+<p> An informative website that portrays <a href="https://salvedojuliao.github.io/Mitoafro/"> <b>African Mythology </b> </a> focusing on some main orixás with their respective Yoruba myths, aiming to increase its     visibility without the intention of converting users to the religion. To this end, we provide content that is easy to read and understand, dynamic and very interactive. 
+</p>
+   
+
+
+
 
 <imgs of Orixás>
 
