@@ -22,20 +22,21 @@
 
 <h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/0dc65363-2400-48a6-ab4a-2d019905ab0e" /> Features </h2> 
     
-- `Feature 1`: descrição da funcionalidade 1
-- `Feature 2`: descrição da funcionalidade 2
-- `Feature 2`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Feature 3`: descrição da funcionalidade 3
+- `Feature 1`: Interactive menu,
+- `Feature 2`: Sidebar meu,
+- `Feature 2`: Responsive website,
+- `Feature 3`: Interactive components;
     
 <h2>Demo</h2>
+<h3> Cellphone </h3>   
+    
+![Untitled design](https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/d4be5bab-5907-46cb-a753-e052291b6dd1)
 
-
-https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/dfcdfc96-68a9-4117-801f-1fcd4826a2fd
-
-
-
-
-
+<h3> Desktop </h3>
+ 
+    
+    
+    
 <Video>
   * [Tecnologias utilizadas](#tecnologias-utilizadas)
   * [Pessoas Contribuidoras](#pessoas-contribuidoras)
