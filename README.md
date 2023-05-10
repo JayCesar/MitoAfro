@@ -1,4 +1,8 @@
-# ✊🏾 Mitoafro
+<h1 align="center"> ✊🏾 Mitoafro </h1>
+![banner](https://github.com/salvedojuliao/Mitoafro/assets/44206400/3797d1e7-738b-4e48-ab19-c45836a3f225)
+
+
+
 A informative website that portrays **African Mythology** focusing on some main orixás with their respective Yoruba myths, aiming to increase its visibility without the intention of converting users to the religion. To this end, we provide content that is easy to read and understand, dynamic and very interactive.
 
 _**Link:**_ https://salvedojuliao.github.io/Mitoafro/ 
