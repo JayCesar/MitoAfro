@@ -1,7 +1,9 @@
 <h1 align="center"> ✊🏾 Mitoafro </h1>
 
-
 ![banner](https://github.com/salvedojuliao/Mitoafro/assets/44206400/788e0e5d-d504-49fe-8410-9a625d277d0f)
+
+![Badge Finalizado](http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge)
+
 
 
 
