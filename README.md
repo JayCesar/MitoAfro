@@ -1,5 +1,10 @@
 <h1 align="center"> ✊🏾 Mitoafro </h1>
-![banner](https://github.com/salvedojuliao/Mitoafro/assets/44206400/3797d1e7-738b-4e48-ab19-c45836a3f225)
+
+
+![banner](https://github.com/salvedojuliao/Mitoafro/assets/44206400/788e0e5d-d504-49fe-8410-9a625d277d0f)
+
+
+
 
 
 
