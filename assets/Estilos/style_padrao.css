@@ -1,0 +1,428 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ================================
+GERAIS - DEFAULT
+================================= */
+
+html, body{height: 100%;}
+body {overflow-x: hidden;}
+
+/* IMPORTAÇÃO FONTE PRÓPRIA */
+@font-face
+{
+	font-family: 'Mitoafro'; 
+	src:url(fonts/mitoafro-regular-webfont.woff);
+	src:url(fonts/mitoafro-regular-webfont.woff2);
+	src:url(fonts/mitoafro-regular.ttf);
+}
+
+/* Reset BODY */
+body{margin: 0;padding: 0;}
+
+
+/* PALETA CORES */
+.bg-color-preto{background-color: #000;}
+.bg-color-branco{background-color: rgba(255, 255, 255, .9);}
+.bg-color-vermelho{background-color: rgba(158,0,0,.9);}
+.bg-color-amarelo{background-color: #d19d00;}
+.bg-color-roxo{background-color: #6c07a8;}
+.bg-color-verde{background-color: #08B519;}
+.bg-color-azul{background-color: #0277BF;}
+
+.color-preto{color: #000;}
+
+
+/* ESTILIZAÇÃO BARRA DE ROLAGEM */
+body::-webkit-scrollbar {width: 10px; height: 10px; background: #000;} /* "Fundo" */
+body::-webkit-scrollbar-track-{border-radius: 5px;} /*  */
+
+
+/* FONTES TÍT e TXT */
+.Titulo{font-family: 'Mitoafro', sans-serif; text-transform: uppercase; font-size: 5.5rem;}
+.Subtitulo{font-family: 'Mitoafro', sans-serif; text-transform: uppercase; font-size: 3.5rem;}
+.texto{font-family: "Century Gothic"; font-size: 18px; line-height: 40px;}
+/* .frase-bold{display: flex; padding-left: 6vw;} */
+p.p_dest:first-letter{font-family: 'Mitoafro'; font-size: 70px;}
+
+/* FONTES - CELULAR */
+@media only screen and (max-width: 576px) 
+{ 
+	.Titulo{font-size: 3.5em;} .texto p{font-size: 14px;}
+    .Subtitulo{font-size: 2.0rem;}
+	p.p_dest:first-letter{font-family: 'Mitoafro'; font-size: 40px;}
+}
+/* FONTES - TABLET */
+@media only screen and (min-width:557px) and (max-width:992px) 
+{ 
+	.Titulo{font-size: 4.5em;} .texto p{font-size: 16px;}
+    .Subtitulo{font-size: 2.5rem;}
+	p.p_dest:first-letter{font-family: 'Mitoafro'; font-size: 60px;}
+}
+
+
+
+
+/* ================================
+CABEÇALHO
+================================= */
+
+/* Menu */
+header
+{
+	position: fixed;
+	top: 0; left: 0;
+	padding: 0px 120px;
+	width: 100%;
+	background: #000;
+	z-index: 10;
+	transition: 1s;
+}
+
+header nav{float: right;}
+
+header nav ul{margin: 0; padding: 0; display: flex;}
+
+header nav ul li{list-style: none;}
+
+header nav ul li a
+{
+	height: auto;
+	padding-top: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+header nav ul li a:hover, header nav ul li a.active{text-decoration: none;}
+
+/* Efeito Borda Inferior Hover [Menu e Mitologia]*/
+header nav ul li a:after{
+	content: "";
+	display: block;
+    height: 3px;
+	width: 0%;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+header nav ul li a:hover::after, header nav ul li a.active>a::after {width: 100%;}
+
+
+/* Logo Desk */
+.logo_Desk{width: 90px; padding: 12px 0px;}
+/* Logo Mobile */
+
+.logo_Desk{ transform: scale(); transition: .8s;}
+
+.logo_Desk:hover{
+	transform: scale(1.05);
+	transition: .8s;
+}
+
+.logo_Mob{display: none;}
+
+
+
+/* Botão Hambúrguer Menu */
+.menu-toggle{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%,-50%);
+	cursor: pointer;
+	
+}
+
+.menu-toggle span{
+    position: absolute;
+    display: none; 
+    background: #fff;
+    width: 50%;
+    height: 4px;    
+    transition: .5s;
+}
+
+.menu-toggle span:nth-child(even){
+    left: 50%;
+}
+
+.menu-toggle span:nth-child(1),
+.menu-toggle span:nth-child(2){
+    top: 0;
+}
+
+.menu-toggle span:nth-child(3),
+.menu-toggle span:nth-child(4){
+    top: 10px;
+}
+
+.menu-toggle span:nth-child(5),
+.menu-toggle span:nth-child(6){
+    top: 20px;
+}
+
+.menu-toggle.active span:nth-child(3){
+    transform: translateX(-50px);
+    opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(4){
+    transform: translateX(50px);
+    opacity: 0;
+}
+
+.menu-toggle span:nth-child(1){
+    transform-origin: top left;
+}
+
+.menu-toggle span:nth-child(2){
+    transform-origin: top right;
+}
+
+.menu-toggle.active span:nth-child(1){
+    transform: rotate(45deg);
+    top: 1px;
+    left: 7px;
+}
+
+.menu-toggle.active span:nth-child(2){
+    transform: rotate(-45deg);
+    top: 1px;
+    left: calc(50% - 7px);
+}
+
+.menu-toggle span:nth-child(5){
+    transform-origin: bottom left;
+}
+
+.menu-toggle span:nth-child(6){
+    transform-origin: bottom right;
+}
+
+.menu-toggle.active span:nth-child(5){
+    transform: rotate(-45deg);
+    bottom: 1px;
+    left: 7px;
+}
+
+.menu-toggle.active span:nth-child(6){
+    transform: rotate(45deg);
+    bottom: 1px;
+    left: calc(50% - 7px);
+}
+
+/* Menu - CELULAR e TABLET */
+@media only screen and (max-width:992px) 
+{
+	header
+	{
+		padding: 0 40px;
+		transition: 1s;
+	}
+	
+	header .logo_Desk{display: none;}
+	
+	header .logo_Mob
+	{
+		width: 60px;
+		padding: 11px 0px;
+		display: inline-block;
+	}
+	
+    .menu-toggle{
+        right: calc(40px - 20px);
+        top: calc(100% - 50%);
+    }
+	.menu-toggle span
+	{
+		display: inline-block;
+	}
+	
+	header nav
+	{
+		position: absolute;
+		width: 100%;
+		height: calc(100vh - 50px);
+		background-color: #333;
+		top: 75px;
+		left: -100%;
+		transition: 0.5s;
+	}
+	
+	header nav.active{left: 0;}
+	
+	header nav ul{display: block; text-align: center;}
+	
+	header nav ul li a{
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		line-height: 50px;
+		color: #fff;
+	}
+	
+}
+
+
+/* SETA SCROLL */
+.scrollSuave{
+    position: absolute;
+    top: 90%;
+	left: 50%;
+}
+
+.seta{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.seta span{
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	transform: rotate(45deg);
+	animation: animate 2s infinite;
+	margin: -10px;
+}
+
+.seta span:nth-child(2){
+	animation-delay: -0.2s;
+	transform: rotate(45deg) translate(-20px,-20px);
+}
+
+.seta span:nth-child(3){
+	animation-delay: -0.2s;
+	transform: rotate(45deg) translate(-20px,-20px);
+}
+
+/* ANIMAÇÃO SETA SCROLL */
+@keyframes animate{
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px,-20px);
+	}
+	50%{
+		opacity: 1;
+		transform: rotate(45deg) translate(-20px,-20px);
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px,20px);
+	}
+}
+
+/* ANIMAÇÃO CONTEÚDO */
+
+.anime-l {
+	opacity: 0;
+	transform: translate3d(-200px,0px,0);
+	transition: 1s;
+}
+
+.anime-r {
+	opacity: 0;
+	transform: translate3d(200px,0px,0);
+	transition: 1s;
+}
+
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
+/* LEGENDAS IMGS */
+figure{font-family: "Century Gothic"; font-size: 16px; text-align: center; font-style: italic;}
+
+/* LEGENDAS IMGS - CELULAR */
+@media only screen and (max-width: 576px) 
+{ 
+	figure{font-size: 13px;}
+	figure figcaption{padding-top: 0.5rem;}
+}
+/* LEGENDAS IMGS - TABLET */
+@media only screen and (min-width:557px) and (max-width:992px) 
+{ 
+	figure{font-size: 14px;}
+}
+
+/* ================================
+RODAPÉ
+================================= */
+
+/* Mapa Site */
+.footer_menu{margin-top: 10px; padding-top: 30px;}
+
+.footer_menu ul{
+	width: 100%;
+	list-style: none;
+	color: #fff;
+	padding: 0px;
+}
+
+.footer_menu ul li{margin-bottom: 10px;}
+
+.footer_menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.8;
+	font-family: "Century Gothic";	
+}
+
+.footer_menu ul li a:hover{opacity: 1; text-decoration: underline;}
+
+/* Ícones Redes Soc */
+.rd_social{display: flex; align-items: center; margin-left: -8px;}
+
+.rd_social a{
+	text-decoration: none;
+	padding: 5px 5px;
+	margin: 0px 5px;
+	border-radius: 5px;
+}
+
+.rd_social a i{font-size: 30px;text-align: center;}
+
+.rd_social a .fa-facebook{color: #fff;}
+
+.rd_social a .fa-youtube{color: #fff;}
+
+.rd_social a .fa-instagram{color: #fff;}
+
+.rd_social a .fab{transition: 0.3s ease;}
+
+.rd_social a .fa-facebook:hover{
+	color: #4267b2;
+}
+
+.rd_social a .fa-youtube:hover{
+	color: #FF0000;
+}
+
+.rd_social a .fa-instagram:hover{
+	color: #c32aa3;
+}
+
+.hr_footer{
+	color: #fff;
+	opacity: 0.5;
+	background-color: #fff;
+	height: 0.5px;
+	margin: 20px 100px;
+}
+
+/* RODAPÉ - CELULAR e TABLET */
+@media only screen and (max-width:992px) 
+{
+	.footer_menu ul li{text-align: center;}
+	.rd_social{justify-content: center;}
+}
+
+@media only screen and (max-width:767px) 
+{
+	.sub{margin-top: -30px;}
+}

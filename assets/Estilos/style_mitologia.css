@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HEADER */
+
+/* BARRA DE ROLAGEM */
+body::-webkit-scrollbar-thumb {border-radius: 10px; background: #d19d00;}
+
+/* Cor Efeito Borda Hover Menu*/
+header nav ul li a:hover, header nav ul li a.active{color: #d19d00;}
+header nav ul li a::after{background-color: #d19d00;}
+
+ 
+/* Fundo do conteúdo */
+.geral{
+	background-image:url(../img/fundo-grafismo-fraco.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* INTRO MIT */
+.intro{height: 100vh; background-color: #d19d00;}
+.intro .texto{padding-top: 3rem;}
+
+/* INTRO MIT - CELULAR */
+@media only screen and (max-width: 576px) 
+{
+	.intro .texto{padding-top: 4rem;}
+}
+
+/* CAMPBELL - IMGS e LEGENDAS */
+#Campbell img.campbell{width: 90%;}
+#Campbell img.livro{width: 60%;}
+figure sup a{color: #d19d00;}
+figure sup a:hover{color: #d19d00;}
+#MitoPovos figure sup a{color: #000; font-weight: bold;}
+
+/* MENU Jumbotron */
+.jumbotron-editado{width: 100%;}
+
+.jumbotron-editado ul{
+    border-radius: 5px;
+    background-color: #fff;
+	padding: 10px 0;
+}
+
+.jumbotron-editado ul li{
+	font-family: "Century Gothic";
+	font-weight: bold;
+	list-style: none;
+	text-align: center;
+	padding: 0px 10px;
+}
+
+.jumbotron-editado ul li:first-child{padding-left: 0;}
+.jumbotron-editado ul li:last-child{padding-right: 0;}
+
+.jumbotron-editado ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+}
+
+@media only screen and (max-width: 399px){
+	.jumbotron-editado ul{padding-top: 10px;}
+	.jumbotron-editado ul{padding-bottom: 10px;}
+	.jumbotron-editado ul li {flex: 0 0 50%;}
+}
+@media only screen and (max-width: 576px){
+   	.jumbotron-editado ul li a{font-size: 16px;}
+    .jumbotron-editado ul li{padding: 0px;}
+}
+
+.jumbotron-editado ul li a.active{color: #d19d00;}
+
+.jumbotron-editado ul li:after{
+	content: "";
+	display: block;
+    background-color: #d19d00;
+    height: 3px;
+	width: 0%;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+    }
+
+.jumbotron-editado ul li:hover:after, .jumbotron-editado ul li.active>a:after {width: 100%;}
+
+.jumbotron-editado ul li a:hover, .jumbotron-editado ul li a.active{
+	color: #d19d00;
+	text-decoration: none;
+}
+
+.Titulo_Jum{
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+
+
+@media only screen and (min-width: 576px) and (max-width:992px) {
+    .jumbotron-editado ul{
+        padding: 5px 0;
+    }   
+}
+
+/* CAMPBELL - IMGS e LEGENDAS */
+/*  */
+#MitoPovos img.god {width: 510px; margin-right: 20px; border: #fff solid 2px;}
+
+/* CELULAR e TABLET */
+@media only screen and (max-width: 992px)
+{
+	#MitoPovos img.god {margin-right: 0px;}
+}

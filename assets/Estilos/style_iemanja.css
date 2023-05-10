@@ -1,0 +1,62 @@
+.covered {
+	position: relative;
+	margin : 50px auto;
+}
+
+.second {
+	width : 645px;
+	height : 945px;
+}
+
+.handle {
+	position: absolute;
+	width : 46px;
+	height: 46px;
+	margin-left  : -23px;
+	margin-top   : -23px;
+	border-radius: 50%;
+	background-color: #9e0000;
+	text-align : center;
+}
+
+.handle span {
+	display : inline-block;
+	margin : 15px 1px 0;
+	color : #fff;
+	-webkit-transition : .1s ease-out;
+	-moz-transition : .1s ease-out;
+	-ms-transition : .1s ease-out;
+	-o-transition : .1s ease-out;
+	transition : .1s ease-out;
+}
+
+.handle.vertical {
+	-webkit-transform : rotate(90deg);
+	-moz-transform : rotate(90deg);
+	-ms-transform : rotate(90deg);
+	-o-transform : rotate(90deg);
+	transform : rotate(90deg);
+}
+
+.handle:hover {
+	background-color: #9e0000;
+}
+
+.handle:hover span {
+	color : #fff;
+}
+
+.draggable {
+	background-color: #9e0000;
+	cursor : move;
+}
+
+.draggable span {
+	margin : 15px 4px 0;
+	color  : #fff;
+	-webkit-transition : .1s ease-out;
+	-moz-transition : .1s ease-out;
+	-ms-transition : .1s ease-out;
+	-o-transition : .1s ease-out;
+	transition : .1s ease-out;
+}

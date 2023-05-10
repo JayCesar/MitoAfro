@@ -1,0 +1,527 @@
+@charset "utf-8";
+
+/* BARRA DE ROLAGEM */
+body::-webkit-scrollbar-thumb {border-radius: 10px; background: #9e0000;}
+
+/* Cor Efeito Borda Hover Menu*/
+header nav ul li a:hover, header nav ul li a.active{color: #9e0000;}
+header nav ul li a::after{background-color: #9e0000;}
+
+#menu_bolinha{
+    display: none;
+}
+
+#bolinha img{
+	display: none;
+}
+
+#bolinha2 img{
+	display: none;
+}
+
+.Desenhos{
+    width: 350px;
+}
+
+.Icons{
+    width: 20px;
+}
+
+.historia{
+    padding-left: 50px;
+}
+
+.orixa_descricao{
+    padding-left: 20px;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.541);
+    margin: 40px 0;
+}
+
+i,
+span {
+    display: inline-block;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    background: #9e0000;
+    color: white;
+}
+
+.swiper-slide .imgBx{
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.swiper-slide .imgBx img{
+    width: 100%;
+}
+
+.swiper-slide .details{	
+    font-family: 'Century Gothic';
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.swiper-slide .details h3{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.swiper-slide .details h3 span{
+    padding-top: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    margin-top: 90px;
+    padding-bottom: 80px;
+    min-width: 230px;
+    max-width: 230px;
+    background: #9e0000;
+    color: #fff;
+    transition: all 0.3s;
+	height: 100vh;
+	position: fixed;
+	z-index: 9;
+	overflow: auto;
+}
+
+#sidebar::-webkit-scrollbar {
+	width: 10px;
+	height: 5px;
+	border-radius: 5px;
+    background: #000; 
+    }
+    
+    
+	
+#sidebar::-webkit-scrollbar-thumb {
+    border-radius: 5px; 
+    border-right: solid 1px #fff;   
+    background: #9e0000;
+	}
+
+#sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+#sidebar.active ul li a p{
+	display: none;
+}
+
+#sidebar ul li a p{
+	display: inline;
+	padding-left: 5px;
+    text-align: left;
+	font-size: 16px;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 0px;
+	text-align: center;
+}
+
+#sidebar.active ul ul a {
+    padding: 10px !important;
+}
+
+#sidebar .sidebar-header {
+    padding: 10px;
+    background: #9e0000;
+}
+
+#sidebar ul li a {
+    padding: 20px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #9e0000;
+    background: #fff;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #8B0000;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    margin-top: 7%;
+    width: calc(100% - 230px);
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+	margin-left: 230px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../img/fundo-grafismo-fraco2.png);
+    
+}
+
+#content.active {
+	width: calc(100% - 60px);
+}
+
+/* Explicação Orixás */
+#content p.intro_orixas{padding-left: 15px;}
+
+#sidebarCollapse {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    cursor: pointer;
+    margin-right: -90%;
+}
+
+#sidebarCollapse.active{
+    margin: 0;
+}
+
+#sidebarCollapse span {
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    background: #fff;
+    transition: all 0.4s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+    transition-delay: 0.2s;
+}
+
+#sidebarCollapse span:first-of-type {
+    transform: rotate(45deg) translate(2px, 2px);
+}
+
+#sidebarCollapse span:nth-of-type(2) {
+    opacity: 0;
+}
+
+#sidebarCollapse span:last-of-type {
+    transform: rotate(-45deg) translate(1px, -1px);
+}
+
+#sidebarCollapse.active span {
+    transform: none;
+    opacity: 1;
+    margin: 5px auto;
+}
+
+.frases{
+    padding-left: 3rem;
+}
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */ 
+@media only screen and (min-width:557px) and (max-width:992px) {
+    .Desenhos{
+        width: 250px;
+    }
+    
+    .historia{
+        padding-left: 0;
+    }
+    
+    .orixa_descricao{
+    padding-left: 0px;
+    }
+    
+    #sidebar {
+        margin-top: 75px;
+        min-width: 140px;
+        max-width: 140px;
+        text-align: center;
+    }
+
+    #content p.intro_orixas{padding-left: 0px;}
+	
+	#content {
+		margin-top: 7%;
+		width: calc(100% - 140px);
+		padding: 40px;
+		min-height: 100vh;
+		transition: all 0.3s;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	#content.active {
+		width: calc(100% - 60px);
+	}
+	
+    .dropdown-toggle::after {
+        top: auto;
+        bottom: 10px;
+        right: 50%;
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+	#sidebar ul li a p{
+		display: none;
+	}
+    #sidebar.active {
+        margin-left: 0 !important;
+    }
+	#sidebar.active ul li a{
+		text-align: center;
+	}
+    #sidebar .sidebar-header h3,
+    #sidebar .CTAs {
+        display: none;
+    }
+    #sidebar .sidebar-header strong {
+        display: block;
+    }
+    #sidebar ul li a {
+        padding: 20px 0px;
+    }
+    #sidebar ul li a span {
+        font-size: 0.85em;
+    }
+    #sidebar ul li a i {
+        margin-right: 0;
+        display: block;
+    }
+    #sidebar ul ul a {
+        padding: 10px !important;
+    }
+    #sidebar ul li a i {
+        font-size: 1.3em;
+    }
+    #sidebar {
+        margin-left: 0;
+    }
+    #sidebarCollapse {
+        margin: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    .Desenhos{
+        width: 200px;
+    }
+    .orixa_descricao{
+    padding: 0px;
+    }
+    #sidebar{
+        display: none;
+    }
+    #content p.intro_orixas{
+        padding-left: 0px;
+    }
+    #content{
+		margin-top: 15%;
+        width: 100%;
+		padding: 15px;
+    }
+	#content div.col-12{
+		padding: 0;
+	}
+	.historia{
+        padding-left: 0;
+    }
+    
+    /* MENU DOS ORIXÁS NO MOBILE */
+    #bolinha{
+        position: fixed;
+        bottom: 35px;
+        right: 30px;
+        z-index: 8;
+        display: none;
+    } 
+	
+	#bolinha2{
+		position: fixed;
+		bottom: 35px;
+		right: 30px;
+        z-index: 9;
+        display: block;
+    }
+    #bolinha.active{
+        z-index: 9;
+        display: block;
+    }
+    #bolinha2.active{
+        z-index: 8;
+        display: none;
+    }
+    #bolinha img{
+		display: block;
+        color: #000; 
+		width: 40px;
+		animation: float 3s ease-in-out infinite;
+		animation-name: float;
+		animation-duration: 3s;
+		animation-timing-function: ease-in-out;
+		animation-delay: initial;
+		animation-iteration-count: infinite;
+		animation-direction: initial;
+		animation-fill-mode: initial;
+		animation-play-state: initial;
+		transform: translatey(0px);
+    }
+	
+	#bolinha2 img{
+		display: block;
+        color: #000; 
+		width: 40px;
+		animation: float 3s ease-in-out infinite;
+		animation-name: float;
+		animation-duration: 3s;
+		animation-timing-function: ease-in-out;
+		animation-delay: initial;
+		animation-iteration-count: infinite;
+		animation-direction: initial;
+		animation-fill-mode: initial;
+		animation-play-state: initial;
+		transform: translatey(0px);
+	}
+    
+    #content.active {
+		width: 100%;
+	}
+	
+	/* ANIMAÇÃO ÍCONE */
+	@keyframes float
+	{
+        0%{
+			transform: translatey(0px);
+		}
+		50%{
+			transform: translatey(-5px);
+		}
+		100%{
+			transform: translatey(0px);
+		}
+	}
+	
+    #menu_bolinha{
+        display: block;
+        background: #9e0000;
+        position: fixed;
+		top: 75px;
+        left: 0;
+        z-index: 9;
+        width: 65%;
+        height: 100vh;
+        transition: 0.5s;
+		text-align: center;
+		overflow: auto;
+		padding-bottom: 60px;
+    }
+	#menu_bolinha h1{
+        font-family: 'Century Gothic';
+        font-size: 15px;
+        color: #fff;
+        text-align: center;  
+        padding: 25px 15px;
+        background-color: #8B0000;
+    }
+	#menu_bolinha ul{
+		padding: 0px;
+	}
+    #menu_bolinha ul li{
+        list-style: none;
+		border-bottom: 1px solid #8B0000;
+		line-height: 30px;
+	}
+	#menu_bolinha ul li a{
+		display: block;
+		padding: 10px 0px;
+	}
+	#menu_bolinha ul li a p{
+		margin: 0;
+		color: #fff;
+	}
+
+    #menu_bolinha.active{
+        margin-left: -100%;
+        transition: 0.5s;
+    }       
+    
+    #menu_bolinha::-webkit-scrollbar {
+		width: 10px;
+		height: 10px;
+        border-radius: 5px;
+        background: #000;  
+	}
+	
+	#menu_bolinha::-webkit-scrollbar-thumb {
+		border-radius: 5px; 
+        background: #8B0000;
+    }
+    
+    .frases{
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+
+/* Frases dos Orixás */
+
+.frase-exu{
+    padding-top: 40px;
+}

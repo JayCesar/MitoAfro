@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{ height: 100%;}
+
+/* BARRA DE ROLAGEM */
+body::-webkit-scrollbar-thumb {border-radius: 10px; background: #08b519;}
+
+/* Menu */
+
+header nav ul li a:hover, header nav ul li a.active{
+	color: #08b519;
+	text-decoration: none;
+}
+
+header nav ul li a:after{
+	content: "";
+	display: block;
+    background-color: #08b519;
+    height: 3px;
+	width: 0%;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.card1{
+    margin: 50px 20px;
+    width: 240px;
+    height: 340px;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: .5s;
+    border-radius: 10px;
+	animation: float 3s ease-in-out infinite;
+	animation-name: float;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-delay: initial;
+	animation-iteration-count: infinite;
+	animation-direction: initial;
+	animation-fill-mode: initial;
+	animation-play-state: initial;
+	transform: translatey(0px);
+}
+
+.hr-nos{
+    border-bottom: #08b519 1.5px solid;
+    margin-top: -10px;
+    width: 20%;
+}
+
+	/* ANIMA��O �CONE */
+	@keyframes float
+	{
+        0%{
+			transform: translatey(0px);
+		}
+		50%{
+			transform: translatey(-5px);
+		}
+		100%{
+			transform: translatey(0px);
+		}
+	}
+
+.card1 .front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: .5s;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #6b6a6a;
+}
+
+.card1 .front img{
+    width: 240px;
+    height: 340px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #6b6a6a;
+}
+
+.card1:hover .front{
+    transform: rotateX(-180deg);
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #6b6a6a;
+}
+
+.card1 .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: .5s;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #6b6a6a;
+}
+
+.card1 .back:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,.1);
+}
+
+.card1:hover .back{
+    transform: rotateX(0deg);
+}
+
+.card1 .back .details{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card1 .back .details h2{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.card1 .back .details h2 span{
+    color: #a7a7a7;
+    font-size: 16px;    
+}
+
+.card1 .back .details .social-icons{
+    padding: 10px 0;
+}
+
+.card1 .back .details .social-icons a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background: #262626;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.card1 .back .details .social-icons a .fab{
+    line-height: 36px;
+}
+
+.card1 .back .details .social-icons a:hover{
+    background: rgba(8,181,25,0.3);
+}
+
+.Aspas{
+    color: #08b519;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+}
+.Titulo-Sobre{
+        margin-top: 50px;
+}
+
+
+.fundo-sobre{
+    background-image: url(../img/fundo-grafismo-fraco.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fundo-foto{
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/grafismo-home.jpg);
+  /* background-color: #08b519; */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+
+@media only screen and (max-width: 576px){
+	.card1 {
+		width: 180px;
+		height: 280px;
+		margin: 20px 20px;
+	}
+	.card1 .front img{
+		width: 180px;
+		height: 280px;
+	}
+	.Titulo-Sobre{
+		margin-top: 40px;
+		font-size: 3.5em;
+	}
+	.julio{
+		margin-bottom: 100px;
+    }
+
+
+    
+  
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px){
+	.card1 {
+		margin: 30px 10px;
+	}
+	.Titulo-Sobre{
+		font-size: 4.5rem;
+		margin-top: 50px;
+	}
+	.julio{
+		margin-bottom: 70px;
+	}
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Iemanjá</title>
+	<link rel="stylesheet" href="assets/Estilos/style_iemanja.css" type="text/css" />
+	<link rel="stylesheet" href="assets/Estilos/node_modules/fontawesome-free-5.2.0/css/all.css">
+</head>
+<body>
+
+	<div class="covered second" data-passive="assets/img/iemanja4.png" data-active="assets/img/iemanja3.png">
+		<div class="handle"></div>
+		<div class="changeable"></div>
+	</div>
+
+	<script src="assets/Estilos/node_modules/jquery/dist/jquery.js"></script>
+	<script src="assets/Estilos/js/coveringBad.js"></script>
+	<script type="text/javascript">
+
+		$('.second').coveringBad({
+			marginY : 20,
+			marginX : 20 ,
+			setX  : 210,
+			setY  : 140 ,
+			direction   : "horizontal"
+		});
+
+	</script>
+</body>
+</html>
