@@ -1,5 +1,6 @@
 # ✊🏾 Mitoafro
-A website about **African Mythology**           
+A informative website that portrays **African Mythology** focusing on some main orixás with their respective Yoruba myths, aiming to increase its visibility without the intention of converting users to the religion. To this end, we provide content that is easy to read and understand, dynamic and very interactive.
+
 _**Link:**_ https://salvedojuliao.github.io/Mitoafro/ 
 
 # 📌About
