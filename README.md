@@ -9,6 +9,6 @@ This website was a **final project** created in 2018 by a group of 4 students, e
 
 # ⚙️ How to open it?
 **1)** You just need to click on this link: https://salvedojuliao.github.io/Mitoafro/  
-**2)** Or you can clone it and add your own improvements
+**2)** Or you can clone it and add your own improvements.
 
 ### Have fun 😉
