@@ -20,14 +20,14 @@
    
 ![banner_02](https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/4efac140-8f2a-4bae-92f6-d2bee945e505)
 
-<h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/0dc65363-2400-48a6-ab4a-2d019905ab0e" /> Features </h2> 
+<h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/e1cc3a7d-c949-41c3-96cc-67c41fb3f7db" /> Features </h2> 
     
 - `Feature 1`: Interactive menu,
 - `Feature 2`: Sidebar meu,
 - `Feature 2`: Responsive website,
 - `Feature 3`: Interactive components;
     
-<h2> 🛠️ Demo</h2>
+<h2> 🛠️ Demo </h2>
 
 <h3> 📱 Cellphone </h3>  
     
@@ -45,14 +45,15 @@
 - ``HTML5``
 - ``responsive design``
   
-# 📌About us
-This website was a **final project** created in 2018 by a group of 4 students, each one responsible for a task. I was responsible for taking care of all the **design(UI)** and part of the **front-end**.
-
+<h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/f697ef44-8c48-4088-8ab3-ddc990a4ccdb" /> About us </h2> 
+    
+This website was a **final project** created in 2018 by a group of 4 students, each one responsible for a task. I (Júlio César) was the person responsible for taking care of all the **design(UI)** and part of the **front-end**.
+    
 ![tcc-group-picture](https://github.com/salvedojuliao/Mitoafro/assets/44206400/9b22a39b-8c9e-4d60-a08d-faa1d5b0e40c)
 
-# ⚙️ How to open it?
+# ⚙️ How acces it?
 **1)** You just need to click on this link: https://salvedojuliao.github.io/Mitoafro/  
 **2)** Or you can clone it and add your own improvements.
 
-   
+ 
   
