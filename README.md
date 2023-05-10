@@ -42,3 +42,17 @@ This website was a **final project** created in 2018 by a group of 4 students, e
 **2)** Or you can clone it and add your own improvements.
 
 ### Have fun 😉
+   
+   
+ * [Título e Imagem de capa](#Título-e-Imagem-de-capa)
+* [Badges](#badges)
+* [Índice](#índice)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-Projeto)
+* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Pessoas Contribuidoras](#pessoas-contribuidoras)
+* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+* [Licença](#licença)
+* [Conclusão](#conclusão)
