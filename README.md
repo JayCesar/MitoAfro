@@ -41,7 +41,7 @@
 
 <h3> 🖥️ Desktop </h3>  
     
-![desktop-gif](https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/6bffd1ec-c2f5-4bc2-b21f-c77eab788ce5)
+![gif](https://github.com/salvedojuliao/MitoAfro/assets/44206400/5feb97dc-f5c7-4419-9490-434bc2ef20f2)
 
 *** 
     
