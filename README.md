@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/Mitoafro/assets/44206400/51620f79-39f4-48a0-8daa-8b6999a6eca3" /> MitoAfro </h1> 
+    <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/Mitoafro/assets/44206400/51620f79-39f4-48a0-8daa-8b6999a6eca3" /> MitoAfro 
 <h1>
    
 ![banner_01](https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/c17b0ff2-0dba-415c-8cbc-fd144881cb44)
