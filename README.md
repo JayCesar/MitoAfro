@@ -23,7 +23,7 @@
 <h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/e1cc3a7d-c949-41c3-96cc-67c41fb3f7db" /> Features </h2> 
     
 - `Feature 1`: Interactive menu,
-- `Feature 2`: Sidebar meu,
+- `Feature 2`: Side Navigation Menu,
 - `Feature 2`: Responsive website,
 - `Feature 3`: Interactive components;
     
