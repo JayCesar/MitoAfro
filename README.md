@@ -43,7 +43,7 @@
 - ``Bootstrap``
 - ``CSS3``
 - ``HTML5``
-- ``responsive design``
+- ``Responsive design``
   
 <h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/f697ef44-8c48-4088-8ab3-ddc990a4ccdb" /> About us </h2> 
     
