@@ -29,7 +29,8 @@
 - `Feature 1`: Interactive menu,
 - `Feature 2`: Side Navigation Menu,
 - `Feature 2`: Responsive website,
-- `Feature 3`: Interactive components;
+- `Feature 3`: Interactive components,
+- `Feature 4`: Contact-us form;
  
 *** 
     
@@ -47,10 +48,12 @@
     
 <h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/0dc65363-2400-48a6-ab4a-2d019905ab0e" /> Techniques and technologies used </h2> 
     
-- ``Jabvscript``
+- ``JavaScript``
+- ``JQuery``
 - ``Bootstrap``
 - ``CSS3``
 - ``HTML5``
+- ``PHP``
 - ``Responsive design``
   
 *** 
