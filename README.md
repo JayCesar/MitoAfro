@@ -17,7 +17,7 @@
 *** 
    
 <h2> <img alt="logo_mitoafro" align="center" src="https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/727c45d6-fc00-4ef8-896e-a9ab4554dc61" /> Description </h2> 
-<p> An <a href="https://salvedojuliao.github.io/MitoAfro"> <b> informative website </b></a> that portrays african mythology focusing on some main orixás with their respective Yoruba myths, aiming to increase its     visibility without the intention of converting users to the religion. To this end, we provide content that is easy to read and understand, dynamic and very interactive. 
+<p> An <a href="https://salvedojuliao.github.io/MitoAfro"> <b> informative website </b></a> that portrays african mythology focusing on some main orixás with their respective Yoruba myths, aiming to increase its     visibility without the intention of converting users to the religion. For this, we provide content that is easy to read and understand, dynamic and very interactive. 
 </p>
  
 ![banner_02](https://github.com/salvedojuliao/MitoAfro_website/assets/44206400/4efac140-8f2a-4bae-92f6-d2bee945e505)
